@@ -300,7 +300,112 @@
             </div>
         </div>
         <p>＊パーティーやプロモーション、ご来店を予定される際、上記より月毎の空き状況をご確認頂けます。</p>
-        
+        <div class="reserve">
+            <h3 class="reservation">ご予約フォーム</h3>
+            <p>＊ご予約ご希望のお客様は下記からご予約いただけます。</p>
+            <form method="post" action="check1.php">
+<tbody><table>
+    <tr><td>ご予約店:</td>
+<td><select name="shop_list" class="validate[required]">
+                  <option value="" selected>選択</option>
+                  <option value="青山" >青山</option>
+                  <option value="渋谷" >渋谷</option>
+                  <option value="目白" >目白</option>
+                  <option value="名古屋" >名古屋</option>
+                  <option value="大堀公園" >大堀公園</option>
+                  <option value="Tカフェ" >Tカフェ</option>
+                  <option value="天神" >天神</option>
+                  <option value="豊洲" >豊洲</option>
+                 
+                </select></td></tr>                
+<tr><td>お名前:</td>
+<td><input name="name" type="text" style="width:100px"  class="validate[required]"></td></tr>
+
+<tr><td>電話番号:</td>
+<td><input name="tel" type="text" style="width200px"  class="validate[required]"></td></tr>
+<tr><td>メールアドレス:</td>
+<td><input name="email" type="text" style="width200px"  class="validate[required]"></td></tr>
+<tr><td>ご予約日:</td>
+  <td><input name="ryear" type="tel" style="width:60px;" class="textform narrow validate[required]" />
+                年（西暦）
+                <select name="rmon" class="validate[required]">
+                  <option value="" selected>選択</option>
+                  <option value="01" >1</option>
+                  <option value="02" >2</option>
+                  <option value="03" >3</option>
+                  <option value="04" >4</option>
+                  <option value="05" >5</option>
+                  <option value="06" >6</option>
+                  <option value="07" >7</option>
+                  <option value="08" >8</option>
+                  <option value="09" >9</option>
+                  <option value="10" >10</option>
+                  <option value="11" >11</option>
+                  <option value="12" >12</option>
+                </select>
+                月
+                <select name="rday" class="validate[required]">
+                  <option value="" selected>選択</option>
+                  <option value="01" >1</option>
+                  <option value="02" >2</option>
+                  <option value="03" >3</option>
+                  <option value="04" >4</option>
+                  <option value="05" >5</option>
+                  <option value="06" >6</option>
+                  <option value="07" >7</option>
+                  <option value="08" >8</option>
+                  <option value="09" >9</option>
+                  <option value="10" >10</option>
+                  <option value="11" >11</option>
+                  <option value="12" >12</option>
+                  <option value="13" >13</option>
+                  <option value="14" >14</option>
+                  <option value="15" >15</option>
+                  <option value="16" >16</option>
+                  <option value="17" >17</option>
+                  <option value="18" >18</option>
+                  <option value="19" >19</option>
+                  <option value="20" >20</option>
+                  <option value="21" >21</option>
+                  <option value="22" >22</option>
+                  <option value="23" >23</option>
+                  <option value="24" >24</option>
+                  <option value="25" >25</option>
+                  <option value="26" >26</option>
+                  <option value="27" >27</option>
+                  <option value="28" >28</option>
+                  <option value="29" >29</option>
+                  <option value="30" >30</option>
+                  <option value="31" >31</option>
+                </select>
+                日</td></tr>
+
+<tr><td>ご予約時間</td>
+<td><select name="reserve_time" class="validate[required]">
+                  <option value="" selected>選択</option>
+                  <option value="11:30" >11:30</option>
+                  <option value="12:00" >12:00</option>
+                  <option value="12:30" >12:30</option>
+                  <option value="13:00" >13:00</option>
+                  <option value="13:30" >13:30</option>
+                  <option value="14:00" >14:00</option>
+                  <option value="14:30" >14:30</option>
+                  <option value="15:00" >15:00</option>
+                  <option value="" >--</option>
+                  <option value="17:30" >17:30</option>
+                  <option value="18:00" >18:00</option>
+                  <option value="18:30" >18:30</option>
+                  <option value="19:00" >19:00</option>
+                  <option value="19:30" >19:30</option>
+                  <option value="20:00" >20:00</option>
+                  <option value="20:30" >20:30</option>
+                  
+                </select></td></tr></tbody></table>
+<br>
+<br>
+<input type="submit" value="確認" class="submit">
+</form>
+            </div>
     </div>
 </section>
 <section class="ImgGallery">
